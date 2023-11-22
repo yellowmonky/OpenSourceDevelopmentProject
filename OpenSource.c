@@ -48,9 +48,9 @@ void PrintGameBoard(int GameBoard[][8]){
             if(GameBoard[i][j]==0)
                 printf("🟡");
             else if(GameBoard[i][j]==1)
-                printf("🟨");
+                printf("🟨 ");
             else if(GameBoard[i][j]==2)
-                printf("⭐");
+                printf("⭐ ");
             else if(GameBoard[i][j]==3)
                 printf("☂");
             else if(GameBoard[i][j]==4)
